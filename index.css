@@ -30,8 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: var(--header-height);
-    padding: 1em;
-    width: calc(100% - 2em);
+    padding: 1.5em var(--side-margin) 1.5em var(--side-margin);
+    width: calc(100% - 2 * var(--side-margin));
     z-index: 10;
 }
 
@@ -57,7 +57,6 @@ header img {
 .banner-contents {
     position: absolute;
     top: 50%;
-    left: 1.5em;
     transform: translate(0%, -50%);
     display: flex;
     flex-direction: column;
@@ -66,6 +65,7 @@ header img {
     height: auto;
     text-shadow: 0px 0px 3px black;
     font-size: 1vw;
+    margin-left: var(--side-margin);
 }
 
 .banner-title {
