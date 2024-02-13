@@ -1,3 +1,5 @@
+> 👉 [배포 페이지 바로가기](https://sj70.github.io/Netflix_Main_Page/)
+
 # 01. HTML, CSS를 이용해서 넷플릭스 사이트 만들기
 
 ### 수행기간
